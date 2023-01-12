@@ -20,89 +20,46 @@
 
       <header class="pb-2 mb-5 mt-0 pl-5 border-bottom bg-danger">
         <nav class="navbar navbar-expand-lg ">
-          <a class="navbar-brand font-weight-bold " href="#">CatSting</a>
+          <a class="navbar-brand font-weight-bold fs-3 " href="#">CatSting</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#">Acceuil <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#">Anecdote</a>
-              <a class="nav-item nav-link" href="#">Races</a>
+              <a class="nav-item nav-link fs-5 active" href="index.html">Acceuil <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link fs-5" href="anecdote.html">Anecdote</a>
+              <a class="nav-item nav-link  fs-5" href="races.html">Races</a>
               <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
             </div>
           </div>
         </nav>
       </header>
 
-      <div class="container">
+      <div class="container-sm row">
 
-      <h1>Get started with Bootstrap</h1>
-      <div class="col-lg-8 px-0">
-        <p class="lead">You've successfully loaded up the Bootstrap npm starter project! It's loaded up with <a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">Bootstrap 4</a>, <a href="https://icons.getbootstrap.com">Bootstrap Icons</a>, and tooling for compiling our Sass and JavaScript to your needs.</p>
-        <p>If this button appears blue and the link appears purple, you've done it!</p>
-      </div>
-
-      <button type="button" class="btn btn-primary mr-3" data-toggle="modal" data-target="#exampleModal">Toggle example modal</button>
-      <a href="#" class="text-success">Example link</a>
-
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              If you're seeing this modal after clicking the button on the page, Bootstrap's CSS and JS are both working properly.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+        <div class="card bg-secondary col ml-2" >
+          <div class="card-body text-center">
+            <h5 class="card-title fs-4 align-baseline text-danger">Anecdotes</h5>
+            <p class="card-text fs-2 font-weight-bold text-light">255</p>
           </div>
         </div>
-      </div>
-
-      <hr class="my-5 w-25 mx-0">
-
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Adding Bootstrap Icons</h2>
-          <p><a href="https://icons.getbootstrap.com">Bootstrap Icons</a> are included with the SVG sprite here, but there are other <a href="https://icons.getbootstrap.com/#usage">usage options</a>, too. They're styleable with text utilities and more.</p>
-
-          <svg class="bi text-danger" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#heart-fill"/>
-          </svg>
-          <svg class="bi text-dark" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#toggles"/>
-          </svg>
-          <svg class="bi text-primary" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#shop"/>
-          </svg>
+        <div class="card bg-secondary col  ml-2" >
+          <div class="card-body text-center">
+            <h5 class="card-title fs-4 align-baseline text-danger">Races</h5>
+            <p class="card-text fs-2 font-weight-bold text-light">34</p>
+          </div>
         </div>
-
-        <div class="col-md-6">
-          <h2>Guides</h2>
-          <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
-          <ul class="icon-list">
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/introduction">Bootstrap quick start guide</a></li>
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/webpack">Bootstrap Webpack guide</a></li>
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/build-tools">Contributing to Bootstrap</a></li>
-          </ul>
+        <div class="card bg-secondary col ml-2" >
+          <div class="card-body text-center">
+            <h5 class="card-title fs-4 align-baseline text-danger">Le plage le plus fréquent</h5>
+            <p class="card-text fs-2 font-weight-bold text-light">Short</p>
+          </div>
         </div>
-      </div>
-
-      <hr class="my-5">
-
-      <p class="text-muted">Created and open sourced by the Bootstrap team. Licensed MIT.</p>
-
-    </div>
+          </div>
     </div>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script type="module" src="assets/js/starter.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
